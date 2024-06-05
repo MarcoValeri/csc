@@ -26,3 +26,13 @@
 .p {
     font-size: 2rem;
 }
+
+// Link
+.link-no-style {
+    text-decoration: none;
+}
+
+.link-highlight {
+    text-decoration: underline;
+    text-decoration-color: $white;
+}
