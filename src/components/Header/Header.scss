@@ -6,7 +6,7 @@
     background-color: $red;
 
     &__container-nav {
-        border: 1px solid #fff;
+        margin-bottom: 2rem;
     }
 
     &__nav {}
@@ -20,5 +20,7 @@
         padding: 2rem;
     }
 
-    &__container-content {}
+    &__container-content {
+        text-align: center;
+    }
 }

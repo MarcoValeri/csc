@@ -11,8 +11,8 @@ const Header = ({pageTitle}: {pageTitle: string}) => {
                 </nav>
             </div>
             <div className="header__container-content">    
-                <h1>CSC</h1>
-                <h2>{pageTitle}</h2>
+                <h1 className="h1">CSC</h1>
+                <h2 className="h2">{pageTitle}</h2>
             </div>
         </header>
     )

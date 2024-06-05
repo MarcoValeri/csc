@@ -1,0 +1,16 @@
+@import "../../assets/scss/abstracts/variables";
+
+.footer {
+    padding: 5em;
+    background-color: $red;
+
+    &__container-credits {
+        text-align: center;
+        color: $white;
+    }
+
+    &__heart {
+        font-size: 3rem;
+        color: $black;
+    }
+}
