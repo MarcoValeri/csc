@@ -1,0 +1,24 @@
+@import "../../assets/scss/abstracts/variables";
+
+.header {
+    padding: 2rem;
+    color: $white;
+    background-color: $red;
+
+    &__container-nav {
+        border: 1px solid #fff;
+    }
+
+    &__nav {}
+
+    &__nav-menu {
+        list-style: none;
+        text-align: center;
+    }
+
+    &__nav-menu-item {
+        padding: 2rem;
+    }
+
+    &__container-content {}
+}
